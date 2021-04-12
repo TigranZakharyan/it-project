@@ -1,0 +1,166 @@
+html,body{
+	height: 100%;
+	background: #242424;
+	margin: 0;
+}
+
+header {
+	height: 50px;
+	background: #242424;
+}
+
+main{
+	position: absolute;
+	top: 50px;
+	bottom: 120px;
+	background-color: #cecece;
+	left: 1%;
+	right: 1%;
+	padding: 10px;
+	overflow: auto;
+}
+
+footer{
+	height: 120px;
+	position: absolute;
+	bottom: 0;
+	background-color: #242424;
+	left: 0;
+	right: 0;
+
+}
+
+header input[type="text"]{
+	width: 78%;
+	display: block;
+	float: left;
+	margin: 10px 1%;
+	padding: 0 10px;
+	height: 30px;
+	border: none;
+	background: #fff;
+	box-sizing: border-box;
+	outline: none;
+}
+
+header input[type="submit"]{
+	width: 19%;
+	display: block;
+	float: left;
+	margin: 10px 1% 10px 0;
+	padding: 0;
+	height: 30px;
+	border: none;
+	background: teal;
+	color: #fff;
+	box-sizing: border-box;
+	outline: none;
+}
+header input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: orange;
+}
+
+
+#message{
+	width: 78%;
+	display: block;
+	float: left;
+	margin: 10px 1%;
+	padding: 10px;
+	height: 100px;
+	border: none;
+	background: #fff;
+	box-sizing: border-box;
+	outline: none;
+	resize: none;
+}
+
+#send{
+	width: 19%;
+	display: block;
+	float: left;
+	margin: 10px 1% 10px 0;
+	padding: 0;
+	height: 100px;
+	border: none;
+	background: teal;
+	color: #fff;
+	box-sizing: border-box;
+	outline: none;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+}
+#send:hover{
+	cursor: pointer;
+	background-color: orange;
+}
+.msg{
+	position: relative;
+	min-height: 100px;
+	margin: 20px 0 0 0;
+}
+.msg .userpic{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+
+}
+.msg .msg-block {
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 0 60px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.msg h3{
+	margin: 5px 0;
+}
+.msg span{
+	float: right;
+	font-weight: normal;
+	color: #999;
+	font-size: 16px;
+}
+.msg-right .userpic{
+	right: 0;
+}
+.msg-right .msg-block{
+	background: #444;
+	color: #fff;
+	text-align: right;
+	margin-left: 150px;
+}
+.msg-left .msg-block{
+	margin-right: 150px;
+}
+.msg-right span{
+	float: left;
+}
+
+header b{
+	line-height: 50px;
+	margin-left: 1%;
+	color: #fff;
+}
+header a{
+	float: right;
+	color: orange;
+	margin-right: 1%;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+header a:hover{
+	color: lime;
+}
+
+footer b{
+	line-height: 120px;
+	display: block;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
